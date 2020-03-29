@@ -7,6 +7,6 @@ BASE_HOA = {
 # Write your implementation here
   # Should return the array of the 'show' argument
 def add_character(show, name)
-  new_hoa = BASE_HOA
+  new_hoa = BASE_HOA.update(show[name])
   new_hoa 
 end
